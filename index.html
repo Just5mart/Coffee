@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style/reset.css" rel="stylesheet" type="text/css" />
+  <link href="style/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container">
+      <img src="images/logo_coffe.svg">
+    </div>
+
+  </header>
+
+  <div class="top-bg"></div>
+
+  <section id="top-main">
+    <div id="top-section">
+
+      <div class="main-info">
+
+        <div class="info-container">
+
+          <p class="description">Підвищуйте свою продуктивність і настрій ранковою кавою!</p>
+          <h2>Насолоджуйтесь кавою в<br> будь-який час!</h2>
+          <a href="#">Замовити</a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="popular">
+
+    <h3>Популярні <span>позиції</span></h3>
+
+    <div class="popular-container">
+
+      <div class="popular-items">
+        <div class="popular-item">
+          <p class="rounded-bg raiting">4.8 <img src=" images/akar-icons_star.png" class="star"></p>
+          <img src="images/coffee/vanilla_latte.png" class="item-image">
+          <p class="item_title"><span>Ванільний лате</span><span>60 грн.</span></p>
+          <div class="type-of">
+
+            <div class="type active" onclick="setActive()">Hot</div>
+            <div class="type" onclick="setActive()">Cold</div>
+
+          </div>
+        </div>
+
+        <div class="popular-item">
+          <p class="rounded-bg raiting">4.6 <img src=" images/akar-icons_star.png" class="star"></p>
+          <img src="images/coffee/espresso.png" class="item-image">
+          <p class="item_title"><span>Еспресо</span><span>60 грн.</span></p>
+
+          <div class="type-of">
+            <div class="type" onclick="setActive()">Hot</div>
+            <div class="type" onclick="setActive()">Cold</div>
+          </div>
+
+        </div>
+
+        <div class="popular-item">
+          <p class="rounded-bg raiting">4.9 <img src=" images/akar-icons_star.png" class="star"></p>
+          <img src="images/coffee/hazelnut_latte.png" class="item-image">
+          <p class="item_title"><span>Горіховий лате</span><span>60 грн.</span></p>
+          <div class="type-of">
+            <div class="type" onclick="setActive()">Hot</div>
+            <div class="type" onclick="setActive()">Cold</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="delivery">
+    <h3>Як скористатись <span>доставкою</span></h3>
+
+    <div class="delivery-items">
+      <div class="delivery-item">
+        <img src="images/delivery/cho.png">
+        <p>Зробіть свій вибір</p>
+        <span>З 20+ найменувань</span>
+      </div>
+
+      <div class="delivery-item">
+        <img src="images/delivery/del.png">
+        <p>Ми доставляємо</p>
+        <span>Менш ніж за 30 хвилин</span>
+      </div>
+
+      <div class="delivery-item">
+        <img src="images/delivery/cof.png">
+        <p>Ви насолоджуєтесь</p>
+        <span>Ароматною та смачною кавою</span>
+      </div>
+    </div>
+    <div>
+
+    </div>
+
+  </section>
+
+  <section id="about">
+    <div class="about-container">
+      <img src="images/barista.png">
+      <div class="about-info">
+        <h3>Про <span>нас</span></h3>
+        <p>Ми створюємо якісну каву та доставляємо її для вас.</p>
+        <span class="about_description">Ми - компанія, яка створює та реалізує авторські напої та страви за секретними
+          рецептами бабусі.
+          Насолоджуйтесь якісним смаком в будь-якому місці з нашою доставкою!</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="special-menu">
+    <h3>Спеціальне меню <span>для вас</span></h3>
+    <div class="special-menu-items">
+      <div class="special-item">
+        <p class="rounded-bg raiting">4.8 <img src=" images/akar-icons_star.png" class="star"></p>
+        <img src="images/special/sanwich.png" class="item-image">
+        <p class="item_title"><span>Сендвіч</span><span>95 грн.</span></p>
+        <span class="special-description">Хрусткі тости з м'ясом та овочами</span>
+      </div>
+
+      <div class="special-item">
+        <p class="rounded-bg raiting">4.6 <img src=" images/akar-icons_star.png" class="star"></p>
+        <img src="images/special/hot-milk.png" class="item-image">
+        <p class="item_title"><span>Гаряче молоко</span><span>64 грн.</span></p>
+        <span class="special-description">Гаряче молоко без цукру</span>
+      </div>
+
+      <div class="special-item">
+        <p class="rounded-bg raiting">4.9 <img src=" images/akar-icons_star.png" class="star"></p>
+        <img src="images/special/coffe-icecream.png" class="item-image">
+        <p class="item_title"><span>Кавове морозиво</span><span>73 грн.</span></p>
+        <span class="special-description">Кава з ванільним морозивом</span>
+      </div>
+
+      <div class="special-item">
+        <p class="rounded-bg raiting">4.7 <img src=" images/akar-icons_star.png" class="star"></p>
+        <img src="images/special/capuccino.png" class="item-image">
+        <p class="item_title"><span>Капучино</span><span>80 грн.</span></p>
+        <span class="special-description">Гарячий капучино</span>
+      </div>
+
+      <div class="special-item">
+        <p class="rounded-bg raiting">4.9 <img src=" images/akar-icons_star.png" class="star"></p>
+        <img src="images/special/moccachino.png" class="item-image">
+        <p class="item_title"><span>Мокачино</span><span>55 грн.</span></p>
+        <span class="special-description">Гаряче мокачино</span>
+      </div>
+
+      <div class="special-item">
+        <p class="rounded-bg raiting">4.7 <img src=" images/akar-icons_star.png" class="star"></p>
+        <img src="images/special/waffle.png" class="item-image">
+        <p class="item_title"><span>Вафлі з морозивом</span><span>60 грн.</span></p>
+        <span class="special-description">Бельгійські вафлі з ванільним морозивом</span>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="subscribe">
+    <div class="subscription">
+      <div class="bg-sub">
+      </div>
+      <h2>Підпишіться на пропозиції, щоб отримати знижку 50%</h2>
+      <form>
+        <input type="email" placeholder="Введіть e-mail">
+        <input type="submit" value="Підписатись">
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
