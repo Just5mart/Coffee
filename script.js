@@ -1,5 +1,5 @@
 function setActive() {
-  // Get all elements with class 'type'
+
   var types = document.querySelectorAll('.type');
 
   // Loop through each element and toggle the 'active' class
